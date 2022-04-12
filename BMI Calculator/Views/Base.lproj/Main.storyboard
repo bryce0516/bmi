@@ -133,6 +133,7 @@
                         <outlet property="weightLabel" destination="LTF-aL-8qu" id="3nC-QD-kVW"/>
                         <outlet property="weightSlider" destination="s2X-C5-Zcz" id="xye-JD-qZX"/>
                         <segue destination="lkq-xS-Cin" kind="presentation" identifier="goToResult" id="Gzt-Zx-D8q"/>
+                        <segue destination="bvI-Nk-YPS" kind="presentation" id="G45-4J-efR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -231,6 +232,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lad-6Z-DkR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="172" y="783"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hRR-rH-rkn">
+            <objects>
+                <viewController id="bvI-Nk-YPS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZTa-mC-7uM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="b4C-o1-xww"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0me-1c-5En" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="916" y="-502"/>
         </scene>
     </scenes>
     <resources>
