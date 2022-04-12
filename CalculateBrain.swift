@@ -10,10 +10,10 @@ import Foundation
 
 struct CalculateBrain {
     
-    var bmi: Float = 0.0
+    var bmi: Float?
     
     func getBMIValue() -> String {
-        let bmiTo1DecimalPlace = String(format: "%0.1f", bmi)
+        let bmiTo1DecimalPlace = String(format: "%0.1f", bmi!)
         return bmiTo1DecimalPlace
     }
     
