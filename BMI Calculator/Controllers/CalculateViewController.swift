@@ -25,10 +25,12 @@ class CalculateViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
+    
     @IBAction func heightSliderChanged(_ sender: UISlider) {
         let height = String(format: "%.2f", sender.value)
         heightLabel.text = "\(height)m"
     }
+    
     @IBAction func weightSliderChanged(_ sender: UISlider) {
         let weight = String(format: "%.0f", sender.value)
         weightLabel.text = "\(weight)kg"
