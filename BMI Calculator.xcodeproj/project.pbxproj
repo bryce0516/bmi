@@ -17,6 +17,7 @@
 		B5085E402805A9EE0091FA5B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5085E3F2805A9EE0091FA5B /* SecondViewController.swift */; };
 		B5085E422805ADEC0091FA5B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5085E412805ADEC0091FA5B /* ResultViewController.swift */; };
 		B5085E442805C6B10091FA5B /* CalculateBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5085E432805C6B10091FA5B /* CalculateBrain.swift */; };
+		B562F0B0282AAC7F009219E1 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B562F0AF282AAC7F009219E1 /* BMI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B5085E3F2805A9EE0091FA5B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B5085E412805ADEC0091FA5B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = SOURCE_ROOT; };
 		B5085E432805C6B10091FA5B /* CalculateBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateBrain.swift; sourceTree = SOURCE_ROOT; };
+		B562F0AF282AAC7F009219E1 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				B5085E432805C6B10091FA5B /* CalculateBrain.swift */,
+				B562F0AF282AAC7F009219E1 /* BMI.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				B5085E422805ADEC0091FA5B /* ResultViewController.swift in Sources */,
 				B5085E402805A9EE0091FA5B /* SecondViewController.swift in Sources */,
 				AD0B9F7E230D61800065EFD9 /* CalculateViewController.swift in Sources */,
+				B562F0B0282AAC7F009219E1 /* BMI.swift in Sources */,
 				B5085E442805C6B10091FA5B /* CalculateBrain.swift in Sources */,
 				AD0B9F7A230D61800065EFD9 /* AppDelegate.swift in Sources */,
 				AD0B9F7C230D61800065EFD9 /* SceneDelegate.swift in Sources */,
