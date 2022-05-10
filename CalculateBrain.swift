@@ -21,9 +21,9 @@ struct CalculateBrain {
         return bmi?.advice ?? "No advice"
     }
     
-//    func getColor() -> UIColor {
-//        return bmi?.color ?? #colorLiteral(red: 0.6090241671, green: 0.1097426936, blue: 0.1195577756, alpha:
-//    }
+    func getColor() -> UIColor {
+        return bmi?.color ?? #colorLiteral(red: 0.06274510175, green: 0, blue: 0.1921568662, alpha: 1)
+    }
     
     mutating func calculateBMI(height: Float, weight:Float){
         
